@@ -101,7 +101,6 @@ img.grayscale {
   /* Fade to color for Chrome and Safari */
   -webkit-backface-visibility: hidden;
   /* Fix for transition flickering */
-  max-width: 500px;
 }
 
     img.grayscale:hover {
@@ -117,7 +116,9 @@ img.grayscale {
 
 h1, h2, h3, h4, h5,
 .h1, .h2, .h3, .h4, .h5 {
-  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  /* font-size: 0.9rem; */
+ }
 
 .border-2 {
   border-width: 2px; }
