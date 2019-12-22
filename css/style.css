@@ -4,15 +4,23 @@ body {
   color: #cfcfd1;
   font-weight: 300;
   font-size: 0.9rem;
-  background: #0e0e0e;
+  background:#161616;
+  /* background:#191a1f; */
   font-family: "Roboto Mono", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+hr {
+    /* width: 300px; */
+    margin-left: auto;
+    margin-right: auto;
+    /* height: 100px; */
+    background-color:rgb(90, 90, 90);
+  }
 ::-moz-selection {
-  background: #000;
+  background: #161616;
   color: #fff; }
 
 ::selection {
-  background: #000;
+  background: #161616;
   color: #fff; }
 
   .button {
@@ -389,7 +397,7 @@ h1, h2, h3, h4, h5,
   position: fixed;
   width: 100%;
   height: 10%;
-  background-color: #0e0e0e; }
+  background-color: #161616; }
   .site-navbar.transparent {
     background: transparent; 
   }
