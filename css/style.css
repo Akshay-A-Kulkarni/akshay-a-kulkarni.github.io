@@ -191,12 +191,12 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 2.5em 0; }
+  padding: 2.5rem; }
   @media (min-width: 768px) {
     .site-section {
-      padding: 5em 0; } }
+      padding: 5rem 0; } }
   .site-section.site-section-sm {
-    padding: 6em 0; }
+    padding: 6rem 0; }
 .site-section-heading h2 {
   position: relative;
   font-size: 1.5rem;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .site-navbar {
-  margin-bottom: 10px;
+  margin-bottom: 100px;
   z-index: 1999;
   position: fixed;
   width: 10%;
@@ -410,8 +410,7 @@ h1, h2, h3, h4, h5,
   .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important; }
   .site-navbar .site-navigation .site-menu {
-    margin-bottom: 0;
-    margin-right: 100; 
+    margin-bottom: 20px;
     }
     .site-navbar .site-navigation .site-menu .active > a {
       color: #ff5733;
@@ -706,7 +705,7 @@ h1, h2, h3, h4, h5,
 .site-hero {
   margin-bottom: 5rem; }
   .site-hero, .site-hero .row {
-    /* min-height: 700px; */
+    min-height: 600px;
     height: calc(100vh - 95px); }
   .site-hero.inner, .site-hero.inner .row {
     min-height: 400px;
