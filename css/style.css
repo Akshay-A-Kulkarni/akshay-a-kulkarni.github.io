@@ -2,7 +2,7 @@
 body {
   line-height: 1.7;
   color: #cfcfd1;
-  font-weight: 300;
+  font-weight: 200;
   font-size: 0.8rem;
   background:#161616;
   /* background:#191a1f; */
@@ -49,7 +49,7 @@ hr {
       right:10px;
       bottom:10px;
       cursor:pointer;
-      width:50px;
+      width:20px;
       height:50px;
       background-color:#ff5733;
       text-indent:0px;
@@ -191,26 +191,26 @@ h1, h2, h3, h4, h5,
     box-shadow: none !important; }
 
 .site-section {
-  padding: 5em;
-  margin-left: 12%;
+  padding: 2.5em;
+  margin-left: 10%;
 }
   @media (min-width: 768px) {
     .site-section {
       padding: 5em;
-      margin-left: 8%;
+      margin-left: 10%;
     } }
   .site-section.site-section-sm {
     padding: 6em; 
-    margin-left: 8%;
+    margin-left: 10%;
   }
 .site-section-heading h2 {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
   padding-bottom: 30px; }
   @media (min-width: 768px) {
     .site-section-heading h2 {
-      font-size: 3rem; } }
+      font-size: 2.5rem; } }
   .site-section-heading h2:after {
     content: "";
     left: 0%;
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 100px;
   z-index: 1999;
   position: fixed;
-  width: 12%;
+  width: 10%;
   height: 100%;
   background-color: #131313; }
   .site-navbar.transparent {
@@ -707,11 +707,19 @@ h1, h2, h3, h4, h5,
 /* Blocks */
 
 .container-fluid {
-  max-width: 1000px; }
+  max-width: 1200px; }
+
+.container-custom {
+  max-width: calc(65vw);
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: 10%;
+   }
 
 .site-hero {
   margin-left: 10%;
-  margin-bottom: 5rem; }
+  margin-bottom: 5em; }
   .site-hero, .site-hero .row {
     min-height: 600px;
     height: calc(100vh - 95px); }
