@@ -717,6 +717,15 @@ h1, h2, h3, h4, h5,
   margin-left: 10%;
    }
 
+.container-otherprojs {
+    max-width: calc(55vw);
+    font-size: smaller;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .site-hero {
   margin-left: 10%;
   margin-bottom: 5em; }
