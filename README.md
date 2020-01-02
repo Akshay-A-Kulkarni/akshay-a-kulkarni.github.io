@@ -1,2 +1,6 @@
 # akshay-a-kulkarni.github.io
-portfolio site
+Code for my portfolio site
+
+also deloyed on netlify
+
+https://akshaykulkarni.netlify.com
