@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5,
   margin-bottom: 100px;
   z-index: 1999;
   position: fixed;
-  width: 10%;
+  width: 12rem;
   height: 100%;
   background-color: #131313; }
   .site-navbar.transparent {
