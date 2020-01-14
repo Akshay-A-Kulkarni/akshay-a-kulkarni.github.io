@@ -25,7 +25,7 @@ hr {
     background-color: #161616;
     font-size: 0.9rem;
     min-height: 3.5rem;
-    min-width: 3rem;
+    min-width: 4rem;
 }
 .row .list-group a:active{
     background-color: #ff583321;
