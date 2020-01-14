@@ -17,12 +17,14 @@ hr {
   }
 
 .container-custom .skill-icon img{
-  width: 10rem;
-  padding: 1%;
+  width: 200px;
+  padding: 2%;
   background-color: rgba(0, 0, 0, 0);
 }
 .row .list-group a {
     background-color: #161616;
+    font-size: 0.9rem;
+    margin-right: 0%;
 }
 .row .list-group a:active{
     background-color: #ff583321;
@@ -417,7 +419,7 @@ h1, h2, h3, h4, h5,
 
 /* Navbar */
 .site-navbar {
-  margin-bottom: 100px;
+  margin-bottom: 10px;
   z-index: 1999;
   position: fixed;
   width: 12rem;
