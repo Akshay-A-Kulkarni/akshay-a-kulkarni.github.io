@@ -418,13 +418,21 @@ h1, h2, h3, h4, h5,
     border-radius: 50%; }
 
 /* Navbar */
+
+.grid {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  place-items: center;
+  height: 100vh;
+}
+
 .site-navbar {
-  margin-bottom: 10px;
   z-index: 1999;
   position: fixed;
-  width: 12rem;
-  height: 100%;
-  background-color: #131313; }
+  width: 10vw;
+  height: 100vh;
+  background-color: #13131300; }
   .site-navbar.transparent {
     background: transparent; 
   }
@@ -465,7 +473,9 @@ h1, h2, h3, h4, h5,
       font-size: 13px; }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
-      padding: 10px 0px; }
+      padding: 10px 0px; 
+      padding-left: 10%;
+    }
       .site-navbar .site-navigation .site-menu > li > a {
         font-size: 0.85rem;
         padding: 10px 0px;
