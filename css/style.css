@@ -430,7 +430,7 @@ h1, h2, h3, h4, h5,
 .site-navbar {
   z-index: 1999;
   position: fixed;
-  width: 10vw;
+  width: 12vw;
   height: 100vh;
   background-color: #13131300; }
   .site-navbar.transparent {
