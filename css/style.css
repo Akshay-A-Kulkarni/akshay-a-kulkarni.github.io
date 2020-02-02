@@ -17,9 +17,9 @@ hr {
   }
 
   .vl {
-    border-left: 2px solid rgb(39, 39, 39);
+    border-left: 2px solid rgb(53, 53, 53);
     top: 0;
-    height: 15vh;
+    height: 30vh;
   }
 
 .container-custom .skill-icon img{
