@@ -782,7 +782,7 @@ h1, h2, h3, h4, h5,
   margin-left: 10%;
   margin-bottom: 5em; }
   .site-hero, .site-hero .row {
-    min-height: 600px;
+    min-height: 500px;
     height: calc(100vh - 95px); }
   .site-hero.inner, .site-hero.inner .row {
     min-height: 400px;
