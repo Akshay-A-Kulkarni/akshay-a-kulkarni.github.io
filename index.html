@@ -32,7 +32,7 @@
     </div>
 
     <header class="site-navbar py-auto" role="banner">
-      <div class="row" style="margin-top: 1% ;">
+      <div class="row" style="margin-top: 0.5%;">
         <div class="col-6">
         <h1 class="mb-0"><a href="index.html" class="text-white h2 mb-0" style="padding-left:5% ;">_A<span class="text-primary">k_</span></a></h1>
         </div>
@@ -546,7 +546,14 @@
   <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/bootstrap-datepicker.min.js"></script>
   <script src="js/aos.js"></script>
-
+  <script type="text/javascript">
+    $(function () {
+      $(document).scroll(function () {
+        var $nav = $(".site-navbar");
+        $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      });
+    });
+  </script>
   <script src="js/main.js"></script>
   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
   </body>
