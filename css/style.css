@@ -439,11 +439,13 @@ h1, h2, h3, h4, h5,
   position: fixed;
   width: 100%;
   /* height: 10vh; */
-  background-color: transparent; }
+  background-color: transparent;
+}
 
   .site-navbar.scrolled {
-    background-color: #181818 !important;
+    background-color: #1d1d1f !important;
     transition: background-color 200ms ease-in;
+    box-shadow: 0 6px 2px -2px rgba(0,0,0,.5);
   }
   .site-sidebar {
     z-index: 1999;
