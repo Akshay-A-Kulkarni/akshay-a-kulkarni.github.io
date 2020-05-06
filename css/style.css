@@ -39,6 +39,12 @@ hr {
   padding: 2%;
   background-color: rgba(0, 0, 0, 0);
 }
+
+@media (max-width:500px){
+  .container-custom .skill-icon img{
+    width: 50px;
+  }
+}
 .row .list-group a {
     background-color: #161616;
     font-size: 0.85rem;
@@ -793,9 +799,11 @@ h1, h2, h3, h4, h5,
   margin-right: auto;
   margin-left: 10%;
    }
-   @media (min-width: 992px) {
-    .container-custom h1 {
-      font-size: 6rem; } }
+
+@media (max-width: 500px) {
+  .container-custom{
+      margin-left: auto;}
+     }
 
 .container-otherprojs {
     max-width: calc(55vw);
